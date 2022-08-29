@@ -1,0 +1,28 @@
+@media print{
+    main{ 
+        box-shadow: none;
+        border-radius: none;
+    }
+    footer{ 
+        display: none;
+    }
+
+}
+@media screen and (min-width: 825px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    nav {
+        width: 97.3vw;
+    }
+}
